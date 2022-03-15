@@ -1,0 +1,119 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+    
+}
+
+.fa {
+    margin-right: 5px;
+  }
+
+.body{
+    margin-left: 20px;    
+    font-family: "poppins";
+}
+
+nav {
+    display: flex;
+    
+    justify-content: space-between;
+    border-bottom:2px solid #0959A7;
+}
+
+
+.menu {
+   
+   
+    float: right;
+    font-style: normal;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    position: sticky;
+    top:0;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.menu {
+    float: right;
+    margin-right: -25px;
+  }
+
+.menu a { 
+    float: left;
+    font-style:poppins;
+    color: #0959A7;
+    padding: 0px 14px 0px 14px;
+    line-height: 65px;
+    display:block;
+    transition: all 0.5s;
+    background-color: wheat;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+menu a:hover{
+    background-color: white;
+    font-weight: bold;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+}
+.top-wrapper h1 {
+    color:whitesmoke;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.Daftarsekarang {
+    background-color:#42C2FF;
+    margin-right: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Daftarsekarang:hover{
+    background-color:#a8dff8;
+    
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    
+  }
+  

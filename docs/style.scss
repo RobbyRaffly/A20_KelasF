@@ -1,0 +1,44 @@
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif
+}
+
+.container-raja {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #48DBFB;
+    .content-left {
+        flex: 50%;
+        .heading {
+            font-weight: 700;
+            font-size: 3rem;
+            color: #051367;
+            line-height: 4rem;
+        }
+        .subheading {
+            color: #051367;
+            font-size: 1.1rem;
+            margin-top: 1em;
+            max-width: 400px;
+        }
+        .cta {
+            margin-top: 1em;
+            display: inline-block;
+            color: #fff;
+            background-color: #2D31FA;
+            border-radius: 1em;
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+    }
+    .content-right {
+        flex: 50%;
+        max-width: 500px;
+        img {
+            width: 100%;
+        }
+    }
+}
