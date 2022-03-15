@@ -1,45 +1,5 @@
-.fa {
-    margin-right: 5px;
-  }
-  
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .logo {
-    width: 124px;
-    margin-top: 10px;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: #0959A7;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color:#a8dff8;
-  }
-  
-  
-/*
+
+
 header {
     height: 65px;
     width: 100%;
@@ -70,7 +30,10 @@ nav {
     justify-content: space-between;
     border-bottom:2px solid #0959A7;
 }
-
+.header-left {
+    float: left;
+  }
+  
 
 .menu {
    
@@ -116,7 +79,7 @@ nav {
 menu a:hover{
     background-color: white;
     font-weight: bold;
-}*/
+}
 
 .top-wrapper {
     padding: 180px 0 100px 0;
@@ -150,4 +113,13 @@ menu a:hover{
     
 }
 
+.menu-icon {
+    color: #0959A7;
+    
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+  }
   
