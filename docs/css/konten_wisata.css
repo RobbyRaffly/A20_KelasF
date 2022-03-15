@@ -14,14 +14,14 @@ body {
 }
 .destinasi{
   padding-bottom: 120px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
   background-color: white;
   text-align: center;
 }
 .container{
   width: 100%;
-  padding: 0 40px;
+  padding: 0 10px;
     margin: 0 auto;
 }
 
