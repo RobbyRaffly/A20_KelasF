@@ -3,9 +3,27 @@
       width: 50%;
       margin-bottom: 50px;
     }
+    .galery {
+      width: 95%;
+    }
   }
-  
+
+  @media (max-width: 800px) {
+    .galery {
+      width: 70%;
+    }
+
+    .destinasi{
+      height: 800px;
+      margin-bottom: 800px;
+    }
+  }
+
   @media (max-width: 670px) {
+    .destinasi{
+      height: 1000px;
+      margin-bottom: 1500px;
+    }
     .content {
       width: 100%;
     }
